@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.banner {
+    width: 100%;
+    max-width: 820px;
+    margin: 40px auto;
+    padding: 28px 36px;
+    background: linear-gradient(160deg, #C9A227, #A8861B);
+    color: #FFFFFF;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    line-height: 16px;
+    line-height: 1.6;
+}
+
+.banner h1 {
+    margin: 0 0 20px;
+    color: #ffffff;
+    font-size: 26px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.banner p {
+    margin: 0 0 16px;
+    text-align: justify;
+}
+
+.banner p:last-child {
+    margin-bottom: 0;
+}
+
+.anh-noi {
+    width: 260px;
+    max-width: 100%;
+    height: auto;
+    float: right;
+    margin: 0 0 14px 18px;
+    border: 3px solid rgba(255, 255, 255, 0.85);
+    border-radius: 4px;
+}
