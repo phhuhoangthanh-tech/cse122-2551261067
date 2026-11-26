@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #FFFFFF;
+}
+
+.khung-tho {
+    width: 640px;
+    max-width: 100%;
+    padding: 24px;
+    background-color: #FFFDE7;
+    border: 1px solid #9E9E9E;
+    text-align: center;
+}
+
+.khung-tho h1 {
+    margin: 0 0 20px;
+    padding: 6px 0;
+    background-color: #FFD9E6;
+    color: #D40000;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.khung-tho p {
+    margin: 0;
+    font-style: italic;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.kho-xanh {
+    color: #0033CC;
+}
+
+.kho-do {
+    color: #D40000;
+}
+
+.khung-tho hr {
+    width: 55%;
+    margin: 12px auto;
+    border: 0;
+    border-top: 1px solid #0033CC;
+}
